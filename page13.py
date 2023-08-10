@@ -225,7 +225,7 @@ def display_data_page():
             for keyword in keywords:
                 condition = dataset2['Title'].str.contains(keyword, case=False, na=False)
                 filtered_rows = dataset2[condition]
-                filtered_dataset = filtered_dataset.append(filtered_rows)
+                filtered_dataset = pd.concat([filtered_dataset, filtered_rows])
             #filtered_dataset = dataset2[filter_condition]
             # Check if the filtered dataset is not empty before displaying it
             if not filtered_dataset.empty:
