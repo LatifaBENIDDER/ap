@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "projectflexgroup",
+    "private_key_id": "6f2283fa5ba9ba20fcfca0ce5b0f2981f6e55660",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8e2dtvBN8zoII\n60df2INU+Q09NSY4gu0yNGlvVif357EMc6TGu2Ti/tQ39D+mZRilH0pRnUA7OXKi\nqCy2bAbgP1aVxnybA3nqn7rqg7xHRTeH0Z3KsAGJVvoqhD0pZarGURFNx2k6dtMi\nNQ6vl/9rOn6oUTzHhk4gNOIjbZMo0A4z+FVLRVXXOWM5Mltx4lQN4mM2s8e1lKOj\n5mSZzcZLJEchttYXoF3oze0yhtjpwlsms0lsm/IMs/wrKlUGGMzk2FWk+EpZCW7h\nlhGqmTetqLw0b1cNHkB2pdDJaesdRvelNYq851BUimV57xQ0j1j2kKg0uE0JKkuT\nai0YjYrzAgMBAAECggEAFF1dAn1EucJySFZrgs6Y+hBivs9ETuzOhhMlpTLw5Jcz\nCP5huls6/k+8TENmsSrRK94ioIjWDNAbM7nqAtfPMmGFkG8+vVz1ykTx5C7Ro/21\nj0Y1v1WfBODR7NAW76cdeYn+zaGTHA8EpviGmrBYl5RdZQBKCeDYBiDQojVPpiQN\nMiGPj1CjOHuUhIJ0T7SpRhhMzJ0b5mm7fezCCr5WpEwj5utsybG3nJOrP9YT50Il\nDBivR/2K1yRcfJEQqy1eELRPgxcUElFRP+E9FGygKSNZgV2TrGERSzJVz3SHBw+Y\ncHuWvOdlRRFOFTUBTMOUAXaUQtz3bmRd9UzAvENnYQKBgQDlKpdR/2vGKpNb9mFY\n+sMARalLinl1hZXIDDXf5yM3eeaQvQ1R/ayJpEJzzMGPRhFAtxP+Ubq9DUuEWXtB\n3YOzSs7oC3E0DBD/mLHr3U92JNpgwQ4vAA4i3Yre5YH/iF79BXZZSowplrSM8/MH\nZb3+oLFIsAuOTBPEI1ZZ36VjMQKBgQDSjUYyzlG29+0teLjB498xQ8YFYeZ/5vrG\notoPN+mq0CDRpoVyIQUr7ain8cecYbXvzYWAqNK3O4X7fcCsQhGsvf7dFNMTNp0g\nrkhwEpFtKWEwE8mscfm/qa1BlEjdiHJtXv7jDItNDAzBw7sZy5GDzTFXlbHU/vda\nOOsUTBlfYwKBgEK8RXbGiA8cZO9Z731nARR6NNPfzoEP1s975tB+Uf4czK0HsPJY\nij9HC2cHkLJ1eB69ceAU0umtDnnLSR6kMG8s8NYYRu4eOXEFeYKzXymLj+CvN78u\nJ++1TnScp1/PycGrLozQLcMKtSd6/yH/WfXlu9rsEWFt/C+ZDtN7UoFxAoGANqRT\nQ3wn2MQe2V4rFKZ+ldpw2ZS+rRLUohhBXxGzopDA86ezmhrXrL7QtkUY+IyjGsjL\njMhDZyoba1kHV60NyTbFnbp5zNKvlHumcO9grmO+xStde1NY7VSrkglZn6R5jcjJ\nfUMUI7qs1NxnAhrCeOIXnBNNQ2mn59I9r9bP/uECgYBT3B/BY3MXkX7i1UFGH5qG\nTR51AgcX4f6+gjkCk9ZH3e9pycT5/MW5mofLQD+33bCZpOEgXI6fHOjQ9wUxJzzD\nKD5kbe4qbDjE84rLX1bacqkYY+AUIsTbai08hGBaWHyk3fYaC5nOxtNzP1FU1YSU\nxJNbH2UYMc+ZDJU30VoYBA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-ewfda@projectflexgroup.iam.gserviceaccount.com",
+    "client_id": "117118742688215203460",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ewfda%40projectflexgroup.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
