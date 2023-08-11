@@ -6,6 +6,7 @@ from firebase_admin import credentials
 from firebase_admin import auth
 import pandas as pd
 from streamlit_tags import st_tags, st_tags_sidebar
+
 a= ['appel', 'concours', 'prix', 'design', 'awards', 'candidatures', 'photographie', 'international', 'saison', 'fourniture', 'acquisition', 'dart'
     , 'conception', 'participation','jury', 'système','services', 'art', 'matériels', 'doffres', 'mise', 'call', 'achat', 'informatiques', 
     'installation', 'digital', 'informatique', 'avis', 'livraison', 'hospitality', 'london', 'iluxury', 'matériel', 'scenic', 'vistas', 
@@ -142,7 +143,7 @@ def set_query_params(signedin):
     st.experimental_set_query_params(**query_params)
 
 def app():
-    st.title('Bienvenue à OffreMatch')
+    st.title('Bienvenue à Offrematch')
 
     if 'username' not in st.session_state:
         st.session_state.username = ''
@@ -203,13 +204,13 @@ def display_data_page():
     # Check if the query parameter "signedin" is present and True
     if st.experimental_get_query_params().get("signedin", False):
         # Exemple de dataset avec trois colonnes : "Nom", "Age" et "Score"
-        dataset1 = pd.read_excel("C:\\Users\\HP\\Desktop\\projet_flex\\data_final66_70.xlsx")
-        dataset2 = pd.read_excel("C:\\Users\\HP\\Desktop\\projet_flex\\data_final.xlsx")
- 
+        dataset1 = pd.read_excel("data_final66_70.xlsx")
+        dataset2 = pd.read_excel("data_final.xlsx")
+
         # Afficher une zone de texte pour l'entrée utilisateur
         #user_input = st.text_input('Entrez vos mots-clés séparés par des espaces', '')
         keywords = st_tags(
-                            label="### Saisissez des mots-clés pour effectuer une recherche d'appels d'offres sur les plateformes (globaltenders, j360, Maroc Telecom) :",
+                            label='# Saisissez des mots-clés :',
                             text='Appuyez sur Entrée pour ajouter plus',
                             suggestions=a,
                             maxtags=10,
@@ -227,7 +228,7 @@ def display_data_page():
             # Check if the filtered dataset is not empty before displaying it
             if not filtered_dataset.empty:
                 # Afficher les données filtrées sous forme de blocs avec un meilleur design
-                st.write("## Appels d'offres en cours")
+                st.write("## Appels d'offres")
                 for idx, row in filtered_dataset.iterrows():
                     st.write(f"### {row['Title']}")
                     st.write(f"**Pays**: {row['Pays']}")
